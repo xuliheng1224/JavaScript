@@ -38,7 +38,7 @@ __proto__
   console.log(person.__proto__ === Person.prototype); // true
 
   下面是构造函数，实例原型，实例的关系图
-  <img src="./img/prototype.jpg">
+  <img src="../img/prototype.jpg">
 
   既然实例对象和构造函数都可以指向原型，那么原型是否有属性指向构造函数或者实例呢？
 
@@ -49,7 +49,7 @@ constructor
 
   更新一下关系图
 
-  <img src="./img/constructor.jpg">
+  <img src="../img/constructor.jpg">
 
   综上我们已经得出：
 
@@ -104,7 +104,7 @@ constructor
   所以查找属性查到 Object.prototype 就可以停止了。
 
   更新一下关系图
-  <img src="./img/all.jpg">
+  <img src="../img/all.jpg">
 
 补充
   最后，补充三点大家可能不会注意的地方：
