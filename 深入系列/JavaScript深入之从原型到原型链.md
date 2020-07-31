@@ -157,6 +157,9 @@ person.constructor === Person.prototype.constructor === Person
  
  继承意味着复制操作，然而JavaScript默认不会复制对象的属性，相反，JavaScript只是在两个对象之间创建一个关联，这样，一个对象就可以通过委托的方式访问另一个对象的属性和函数。
 
+ ## 下一篇文章
+[JavaScript深入之词法作用域和动态作用域](https://github.com/xuliheng1224/JavaScript/blob/master/%E6%B7%B1%E5%85%A5%E7%B3%BB%E5%88%97/JavaScript%E6%B7%B1%E5%85%A5%E4%B9%8B%E8%AF%8D%E6%B3%95%E4%BD%9C%E7%94%A8%E5%9F%9F%E5%92%8C%E5%8A%A8%E6%80%81%E4%BD%9C%E7%94%A8%E5%9F%9F.md)
+
 
 
 

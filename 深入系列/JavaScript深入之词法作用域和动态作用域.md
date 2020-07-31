@@ -96,3 +96,5 @@ JavaScript函数的执行用到了作用域链，这个作用域链是在函数�
 
 虽然两端代码执行的结果一样,但是两端代码究竟有哪些不同呢？
 
+ ## 下一篇文章
+[JavaScript深入之变量对象](https://github.com/mqyqingfeng/Blog/issues/5)
