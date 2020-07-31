@@ -33,7 +33,7 @@ console.log(person2.name);
   那么我们该怎么表示实例与实例原型，也就是 person 和 Person.prototype 之间的关系呢，这时候我们就要讲到第二个属性：
   
 ## \_\_proto\_\_
-  这是每一个JavaScript对象（null除外）都具有的一个属性，叫proto__,这个属性会指向该对象的原型
+  这是每一个JavaScript对象（null除外）都具有的一个属性，叫__proto__,这个属性会指向该对象的原型
 
 ```js
 function Person() {
@@ -49,14 +49,14 @@ console.log(person.__proto__ === Person.prototype); // true
   既然实例对象和构造函数都可以指向原型，那么原型是否有属性指向构造函数或者实例呢？
 
 ## constructor
-  指向实例到时没有，因为一个构造函数可以生成多个实例，但是原型指向构造函数是有的，这就要讲到第三个属性：constructor，每个原型都有个constructor指向关联的构造函数。
+  指向实例到是没有，因为一个构造函数可以生成多个实例，但是原型指向构造函数是有的，这就要讲到第三个属性：constructor，每个原型都有个constructor指向关联的构造函数。
 
 ```js
 function Person() {
 
 }
 var person = new Person();
-console.log(person.__proto__ === Person.prototype); // true
+console.log(Person === Person.prototype.constructor); // true
 ```
 
   更新一下关系图
@@ -90,11 +90,11 @@ var person = new Person();
 
 person.name = "xu";
 
-console.log(person.name); // liheng
+console.log(person.name); // xu
 
 delete person.name;
 
-console.log(person.name); // xu
+console.log(person.name); // liheng
 ```
 
   从这个例子中，我们实例对象person 添加了name属性，当我们打印person.name的时候，结果自然为 liheng。
@@ -154,7 +154,8 @@ person.constructor === Person.prototype.constructor === Person
 
 ## 真的是继承吗？
  最后关于继承，前面我们讲到"每一个对象都会从原型"继承"属性"，实际上，继承是一个十分具有迷惑性的说法：
- 继承意味着复制操作，然而JavaScript默认不会复制对象的属性，相反，JavaScript只是在两个对象之间创建一个关联，这样，一个度一项就可以通过委托的方式访问另一个对象的属性和函数。
+ 
+ 继承意味着复制操作，然而JavaScript默认不会复制对象的属性，相反，JavaScript只是在两个对象之间创建一个关联，这样，一个对象就可以通过委托的方式访问另一个对象的属性和函数。
 
 
 
