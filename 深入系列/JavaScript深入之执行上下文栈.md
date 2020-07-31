@@ -164,7 +164,7 @@ ECStack.pop();
 当然了，这样开过的回答执行上下文栈的变化不同，是不是依然有一种意犹未尽的感觉呢，为了更详细的讲解两个函数执行上的区别，我们需要探究一下执行上下文到底包含了哪些内容。
 
 ## 下一篇文章
-[JavaScript深入之变量对象](https://github.com/mqyqingfeng/Blog/issues/5)
+[JavaScript深入之变量对象](https://github.com/xuliheng1224/JavaScript/blob/master/%E6%B7%B1%E5%85%A5%E7%B3%BB%E5%88%97/JavaScript%E6%B7%B1%E5%85%A5%E4%B9%8B%E5%8F%98%E9%87%8F%E5%AF%B9%E8%B1%A1.md)
 
 
 
