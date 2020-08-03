@@ -97,4 +97,4 @@ JavaScript函数的执行用到了作用域链，这个作用域链是在函数�
 虽然两端代码执行的结果一样,但是两端代码究竟有哪些不同呢？
 
  ## 下一篇文章
-[JavaScript深入之执行上下文](https://github.com/xuliheng1224/JavaScript/blob/master/%E6%B7%B1%E5%85%A5%E7%B3%BB%E5%88%97/JavaScript%E6%B7%B1%E5%85%A5%E4%B9%8B%E6%89%A7%E8%A1%8C%E4%B8%8A%E4%B8%8B%E6%96%87%E6%A0%88.md)
+[JavaScript深入之执行上下文栈](https://github.com/xuliheng1224/JavaScript/blob/master/%E6%B7%B1%E5%85%A5%E7%B3%BB%E5%88%97/JavaScript%E6%B7%B1%E5%85%A5%E4%B9%8B%E6%89%A7%E8%A1%8C%E4%B8%8A%E4%B8%8B%E6%96%87%E6%A0%88.md)
