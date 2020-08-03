@@ -1,3 +1,15 @@
+
+## 前言
+在上篇的[《JavaScript深入之执行上下文栈》](https://github.com/xuliheng1224/JavaScript/blob/master/%E6%B7%B1%E5%85%A5%E7%B3%BB%E5%88%97/JavaScript%E6%B7%B1%E5%85%A5%E4%B9%8B%E6%89%A7%E8%A1%8C%E4%B8%8A%E4%B8%8B%E6%96%87%E6%A0%88.md)中讲到，当JavaScript代码执行一段可执行代码时，会创建对应的执行上下文。
+
+对于每个执行上下文，都有三个重要属性：
+  
+  * 变量对象(Variable object，VO)
+  * 作用域链(Scope chain)
+  * this
+
+今天重点讲讲作用域链。
+
 ## 作用域链
 在《JavaScript深入之变量对象》中讲到，当查找变量的时候，会先从当前上下午文的变量对象中查找，如果没有找到，就会从父级执行上下文的变量对象中查找，
 一直找到全局上下文的变量对象，也就是全局对象。这样由多个执行上下文的变量对象构成的链表就叫做作用域链。
@@ -134,4 +146,4 @@ ECStack = [
 ```
 
 ## 下一篇文章
-[JavaScript深入之从ECMAScript规范解读this]
+[JavaScript深入之从ECMAScript规范解读this](https://github.com/xuliheng1224/JavaScript/blob/master/%E6%B7%B1%E5%85%A5%E7%B3%BB%E5%88%97/JavaScript%E6%B7%B1%E5%85%A5%E4%B9%8B%E4%BB%8EECMAScript%E8%A7%84%E8%8C%83%E8%A7%A3%E8%AF%BBthis.md)
