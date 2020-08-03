@@ -218,7 +218,7 @@ var foo = 1;
 这是因为在进入执行上下文时，首先会处理函数声明，如果变量名称跟已经声明的形式参数或函数相同，则变量声明不会干扰已经存在的这类属性。
 
 ## 下一篇文章
-[JavaScript深入之作用域链]
+[JavaScript深入之作用域链](https://github.com/xuliheng1224/JavaScript/blob/master/%E6%B7%B1%E5%85%A5%E7%B3%BB%E5%88%97/JavaScript%E6%B7%B1%E5%85%A5%E4%B9%8B%E4%BD%9C%E7%94%A8%E5%9F%9F%E9%93%BE.md)
 
 
 
